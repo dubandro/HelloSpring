@@ -37,7 +37,7 @@ public class Cart {
     }
 
     public void printCard() {
-        System.out.print("Your cart:");
+        System.out.print("Your cart (" + this + "):");
         if (productCart.isEmpty()) {
             System.out.println(" Empty");
         }
